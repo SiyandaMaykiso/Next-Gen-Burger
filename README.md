@@ -12,6 +12,6 @@
 
 * Check out this video of the app for a run-through of how it works here:
 
-https://youtu.be/msvdn95x9OM
+* https://youtu.be/msvdn95x9OM
 
 
