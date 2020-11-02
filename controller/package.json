@@ -1,0 +1,31 @@
+{
+  "name": "node-express-handlebars",
+  "version": "1.0.0",
+  "description": "A burger eating app using node, express, and handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiyandaMaykiso/Next-Gen-Burger.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "handlebars"
+  ],
+  "author": "Siyada Mayekiso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiyandaMaykiso/Next-Gen-Burger/blob/main/LICENSE"
+  },
+  "homepage": "https://github.com/SiyandaMaykiso/Next-Gen-Burger/blob/main/README.md",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.18.1"
+  }
+}
