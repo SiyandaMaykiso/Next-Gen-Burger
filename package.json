@@ -23,9 +23,9 @@
   "homepage": "https://github.com/SiyandaMaykiso/Next-Gen-Burger/blob/main/README.md",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.6",
-    "mysql": "^2.11.1"
+    "mysql": "^2.18.1"
   }
 }
