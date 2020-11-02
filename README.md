@@ -10,9 +10,8 @@
 
 * My app will store every burger in a database, whether devoured or not.
 
-* Check out this video of the app for a run-through of how it works here:
+* Check out this video of the app for a run-through of how it works below:
 
-* https://youtu.be/msvdn95x9OM
 
 ## Installation
 
@@ -40,6 +39,14 @@
 
 * Mysql is used to set up a connection to and manage the database.
 
+
+## Demo Information
+
+Github Repo: 
+
+Heroku:
+
+Demo:  https://youtu.be/msvdn95x9OM
 
 
 
