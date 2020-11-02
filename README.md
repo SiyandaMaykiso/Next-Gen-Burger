@@ -20,9 +20,9 @@
 
 * Run "npm install" on bash for the latest node modules..
 
-Create your folder in your mySQL workbench using the schema.sql file
+* Create your folder in your mySQL workbench using the schema.sql file
 
-Pre-seed the file using the seed.sql file in the root folder.
+* Pre-seed the file using the seed.sql file in the root folder.
 
 * Check your connection
 
@@ -30,15 +30,15 @@ Pre-seed the file using the seed.sql file in the root folder.
 
 ## Software
 
-I utilized javascript html, css, bootstraps, node, mySQL and other state of the art software page,
+* I utilized javascript html, css, bootstraps, node, mySQL and other state of the art software page,
 
-Express is used to hold up the server connction/ Express-handlebars is used to create the different perspectives possible.
+* Express is used to hold up the server connction/ Express-handlebars is used to create the different perspectives possible.
 
-The burgerController.js file found in the controllers folder serves as a router for all the api calls. It utlizes the burger.js module (located in the models folder) to render the webpage.
+* The burgerController.js file found in the controllers folder serves as a router for all the api calls. It utlizes the burger.js module (located in the models folder) to render the webpage.
 
-The burger model, burger.js, calls the orm to interact with the mySQL database.
+* The burger model, burger.js, calls the orm to interact with the mySQL database.
 
-Mysql is used to set up a connection to and manage the database.
+* Mysql is used to set up a connection to and manage the database.
 
 
 
