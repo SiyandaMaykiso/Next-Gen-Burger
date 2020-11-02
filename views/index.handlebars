@@ -1,0 +1,47 @@
+<div class="container">
+
+  <div class="jumbotron"></div>
+
+        <div class = "row p-5">
+            <div class = "col-md-6">
+                <h1> Welcome to the Next-Gen Burger </h1>
+                <ol>
+                    {{#each burgers}}
+                        {{#unless eaten}}
+                           <li class="m-5">
+                                {{name}}
+                                <button class="mx-3 change-eaten" data-id="{{id}}" data-neweaten= "1">
+                                    Devour it
+                                </button>
+                            </li>
+                        {{/unless}}
+                    {{/each}}
+
+                </ol>
+            </div>
+            <div class = "col-md-6">
+                <h1>Consumed Burgers: </h1>
+                <ol>
+                    {{#each burgers}}
+                        {{#if eaten}}
+                            <li class="m-5">
+                                {{name}}
+                                <button class = "mx-3 delete-burger" data-id="{{id}}">
+                                    Delete
+                                </button>
+                            </li>
+                        {{/if}}
+                    {{/each}}
+                </ol>
+            </div>
+        </div>
+        <div class="row justify-content-center p-4 m-4"> 
+            <form class="text-center">
+                <div class="form-group">
+                    <label for="newBurger">ADD A BURGER</label>
+                    <input type="text" class="form-control" id="newBurger" name="burgerName">
+                </div>
+                <button type="submit" class="newBurger btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
