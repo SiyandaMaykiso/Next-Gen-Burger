@@ -42,7 +42,7 @@
 
 ## Demo Information
 
-Github Repo: 
+Github Repo: https://github.com/SiyandaMaykiso/Next-Gen-Burger.git
 
 Heroku:
 
