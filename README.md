@@ -44,7 +44,7 @@
 
 Github Repo: https://github.com/SiyandaMaykiso/Next-Gen-Burger.git
 
-Heroku:
+Heroku: https://next-genburger.herokuapp.com
 
 Demo:  https://youtu.be/msvdn95x9OM
 
